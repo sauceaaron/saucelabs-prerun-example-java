@@ -29,7 +29,7 @@ public class Test_using_a_prerun_executable
 	public void setup() throws IOException
 	{
 		/* specify the pre-run executable file to upload to sauce-storage */
-	    File prerun = new File("/tmp/prerun.bat");
+		File prerun = new File("/tmp/prerun.bat");
 
 		api = new SauceREST(username, accessKey);
 		api.uploadFile(prerun);
