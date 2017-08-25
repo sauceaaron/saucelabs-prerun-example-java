@@ -46,7 +46,7 @@ public class Test_using_a_prerun_executable
 		capabilities.setCapability("prerun", "sauce-storage:prerun.bat");
 
 		driver = new RemoteWebDriver(url, capabilities);
-    }
+	}
 	
 	@Test
 	public void with_sauce_storage()
